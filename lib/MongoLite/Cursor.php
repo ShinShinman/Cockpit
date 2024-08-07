@@ -74,7 +74,7 @@ class Cursor implements \Iterator {
 
             $sql = ['SELECT COUNT(*) AS C FROM '.$this->collection->database->connection->quote($this->collection->name)];
 
-            $sql[] = 'WHERE document_criteria("'.$this->criteria.'", document)';
+            $sql[] = 'WHERE document_criteria(\''.$this->criteria.'\', document)';
 
             if ($this->limit) {
                 $sql[] = 'LIMIT '.$this->limit;
