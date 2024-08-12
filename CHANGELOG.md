@@ -2,8 +2,13 @@
 
 ## WIP
 
+- Sort env variables by name
+- Update Vue to v3.4.37
+
+## 2.9.0 (2024-08-08)
+
 - Update Uppy to 4.0.4
-- Update Vue to v3.4.35
+- Update Vue to v3.4.36
 - Add spaces.spaces.created event
 - Fix SQLite double-quoted string literals issue #194
 - Add content:index:list, content:index:create and content:index:remove tower commands
